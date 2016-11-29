@@ -64,6 +64,7 @@ module.exports = app.listen(port, function (err) {
     console.log(err)
     return
   }
+  //port = 80;
   var uri = 'http://localhost:' + port
   console.log('Listening at ' + uri + '\n')
 
