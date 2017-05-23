@@ -2,6 +2,11 @@
 
 > Proyecto de todo list con vue-cli, can you see the demo in [Todolist App](https://todolist-lab.firebaseapp.com/) 
 
+Esto es un proyecto inicial de Vue 2.0 incluyendo Vuex y el desarrollo de un plugin para incluir a Firebase como una función más de Vue desde cualquier componente haciendo un llamado al state db.
+
+> ## Proximamente
+> Inclusion de storage y otras opciones de Auth de Firebase
+
 ## Build Setup
 
 ``` bash
@@ -14,14 +19,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
